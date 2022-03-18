@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+     <head>
+         <meta charset="UTF-8">
+		 <meta name="author" content="Rashmi Guruge">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <title>Quiz</title>
+		 <link rel="stylesheet" type="text/css" href="Details_and_Quiz.css">
+		 <script type="text/javascript" src="Quiz.js"></script>	
+		 <link rel="stylesheet" type="text/css" href="navstylesheet.css">
+		 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap">
+	     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Lobster&family=Quattrocento+Sans&family=Rokkitt&display=swap">	  
+	     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap">
+	     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap">
+	</head>	
+	
+	 <body>
+<!------------------------------------------------------------------------------------------------------------------------------------------>		 		
+		 <!--nav bar reused ......-->
+	     <nav class="navarea">
+	         <div class="navimage">   <!--logo pic-->
+			     <img src="2.png" alt="logo">
+	         </div>										
+		     <ul>
+			     <li><a href="https://w1809936.users.ecs.westminster.ac.uk/navbar.html">Home</a></li>
+			     <li><a href="https://w1809852.users.ecs.westminster.ac.uk/public_html/public_html/shop.html">Shop</a></li>
+			     <li><a href="https://w1809851.users.ecs.westminster.ac.uk/WebDesign_Thumbnail_page.html">Thumbnails</a></li>
+			     <li><a href="https://w1809748.users.ecs.westminster.ac.uk/Quiz%20Intro.html">Quiz</a></li>
+			     <li><a href="https://w1809851.users.ecs.westminster.ac.uk/WebDesign_Sitemap_page.html">Diagram</a></li>
+			     <li><a href="https://w1809936.users.ecs.westminster.ac.uk/query.html">Query</a></li> <!--query pg link-->
+			     <li><a href="https://w1809748.users.ecs.westminster.ac.uk/Student_Details.html">About Us</a></li>			
+		     </ul>
+	     </nav>	
+	 	 <!--nav bar completed ......-->		  
+<!------------------------------------------------------------------------------------------------------------------------------------------>		 
+	     <div class="img_background3">		    
+			<div class="img_header3">
+			     <h1>Quiz</h1>				 
+	         </div>
+		 </div>	
+		 
+		 <div class="content_area3">		 		  
+		     <form name="quiz" id="fieldset1">
+			 	 <h2 id="timer">Remaining Time :</h2>		     
+			 	 <hr>
+				 
+		         <p><b>1. What is the capital of Sri Lanka ?</b></p>
+				 <div class="answers">
+				     <input type="radio" name="question1" value="a" id="q1a"> 
+					 <label for="q1a">a. Kandy</label><br>							 
+					 <input type="radio" name="question1" value="b" id="q1b"> 
+					 <label for="q1b">b. Colombo</label><br>						 
+					 <input type="radio" name="question1" value="c" id="q1c"> 
+					 <label for="q1c">c. Sri Jayawardenapura Kotte</label><br>							 
+					 <input type="radio" name="question1" value="d" id="q1d"> 
+					 <label for="q1d">d. Hambanthota</label><br>	
+				 </div> 
+				 <div class="result">
+					 <p id="resultQ1"></p>
+					 <p id="resultQ1c" style="color:#610B5E; background-color:#F79F81; text-align:center;"></p>
+				 </div>
+				 <hr>
+						 							
+				 <p><b>2. What is the longest river in the world ?</b></p>
+				 <div class="answers">
+				     <input type="radio" name="question2" value="a" id="q2a"> 
+					 <label for="q2a">a. Congo River</label><br>							 
+					 <input type="radio" name="question2" value="b" id="q2b"> 
+					 <label for="q2b">b. Amazon River</label><br>						 
+					 <input type="radio" name="question2" value="c" id="q2c"> 
+					 <label for="q2c">c. Nile</label><br>							 
+					 <input type="radio" name="question2" value="d" id="q2d"> 
+					 <label for="q2d">d. Yello River</label><br>
+				 </div>	 
+				 <div class="result">
+					 <p id="resultQ2"></p>
+					 <p id="resultQ2c" style="color:#610B5E; background-color:#F79F81; text-align:center;"></p>
+				 </div>
+				 <hr>
+						 						 
+				 <p><b>3. Mont Saint-Michel is located in which country ?</b></p>
+				 <div class="answers">
+				     <input type="radio" name="question3" value="a" id="q3a"> 
+					 <label for="q3a">a. France</label><br>							 
+					 <input type="radio" name="question3" value="b" id="q3b"> 
+					 <label for="q3b">b. Austria</label><br>						 
+					 <input type="radio" name="question3" value="c" id="q3c"> 
+					 <label for="q3c">c. Switzerland</label><br>							 
+					 <input type="radio" name="question3" value="d" id="q3d"> 
+					 <label for="q3d">d. Brazil</label><br>
+				 </div>	 
+				 <div class="result">
+					 <p id="resultQ3"></p>
+					 <p id="resultQ3c" style="color:#610B5E; background-color:#F79F81; text-align:center;"></p>
+				 </div>
+				 <hr>
+						 						 
+				 <p><b>4. What is the Italian term <i>"Bella Figure"</i> mean ?</b></p>
+				 <div class="answers">
+				     <input type="radio" name="question4" value="a" id="q4a"> 
+					 <label for="q4a">a. Good Food</label><br>							 
+					 <input type="radio" name="question4" value="b" id="q4b"> 
+					 <label for="q4b">b. Fine Wine</label><br>						 
+					 <input type="radio" name="question4" value="c" id="q4c"> 
+					 <label for="q4c">c. Pretty Lady</label><br>							 
+					 <input type="radio" name="question4" value="d" id="q4d"> 
+					 <label for="q4d">d. Good Image</label><br>
+				 </div>	 
+				 <div class="result">
+					 <p id="resultQ4"></p>
+					 <p id="resultQ4c" style="color:#610B5E; background-color:#F79F81; text-align:center;"></p>
+				 </div>
+				 <hr>
+						 						 
+				 <p><b>5. Every country use different type of currency. what is the currency used in switzerland ?</b></p>
+				 <div class="answers">  
+					 <input type="radio" name="question5" value="a" id="q5a"> 
+					 <label for="q5a">a. European euro</label><br>							 
+					 <input type="radio" name="question5" value="b" id="q5b"> 
+					 <label for="q5b">b. Swiss franc</label><br>						 
+					 <input type="radio" name="question5" value="c" id="q5c"> 
+					 <label for="q5c">c. United States dollar</label><br>							 
+					 <input type="radio" name="question5" value="d" id="q5d"> 
+					 <label for="q5d">d. Swedish krona</label><br>
+				 </div>	 
+				 <div class="result">
+					 <p id="resultQ5"></p>
+					 <p id="resultQ5c" style="color:#610B5E; background-color:#F79F81; text-align:center;"></p>
+				 </div>
+				 <hr>
+						 
+				 <p><b>6. What language is the official language of Brazil? ?</b></p>
+				 <div class="answers">
+				     <input type="radio" name="question6" value="a" id="q6a"> 
+					 <label for="q6a">a. English</label><br>							 
+					 <input type="radio" name="question6" value="b" id="q6b"> 
+					 <label for="q6b">b. Greek</label><br>						 
+					 <input type="radio" name="question6" value="c" id="q6c"> 
+					 <label for="q6c">c. Spanish</label><br>							 
+					 <input type="radio" name="question6" value="d" id="q6d"> 
+					 <label for="q6d">d. Portuguese</label><br>
+				 </div>   
+				 <div class="result">
+					 <p id="resultQ6"></p>
+					 <p id="resultQ6c" style="color:#610B5E; background-color:#F79F81; text-align:center;"></p>
+				 </div>
+				 <hr>
+						 
+				 <p><b>7. Which of these is the <i>national animal</i> of Australia ?</b></p>
+				 <div class="answers">
+				     <input type="radio" name="question7" value="a" id="q7a"> 
+					 <label for="q7a">a. Tiger</label><br>							 
+					 <input type="radio" name="question7" value="b" id="q7b"> 
+					 <label for="q7b">b. Lion</label><br>						 
+					 <input type="radio" name="question7" value="c" id="q7c"> 
+					 <label for="q7c">c. Kangaroo</label><br>							 
+					 <input type="radio" name="question7" value="d" id="q7d"> 
+					 <label for="q7d">d. Panda</label><br>
+				 </div>   
+				 <div class="result">
+					 <p id="resultQ7"></p>
+					 <p id="resultQ7c" style="color:#610B5E; background-color:#F79F81; text-align:center;"></p>
+				 </div>
+				 <hr>
+						 
+				 <p><b>8. Which one is the most populous city in United Arab Emirates ?</b></p>
+				 <div class="answers">
+				     <input type="radio" name="question8" value="a" id="q8a"> 
+					 <label for="q8a">a. Al Ain</label><br>							 
+					 <input type="radio" name="question8" value="b" id="q8b"> 
+					 <label for="q8b">b. Dubai</label><br>						 
+					 <input type="radio" name="question8" value="c" id="q8c"> 
+					 <label for="q8c">c. Abu Dhabi</label><br>							 
+					 <input type="radio" name="question8" value="d" id="q8d"> 
+					 <label for="q8d">d. Sharjah</label><br>
+				 </div>	 
+				 <div class="result">
+					 <p id="resultQ8"></p>
+					 <p id="resultQ8c" style="color:#610B5E; background-color:#F79F81; text-align:center;"></p>
+				 </div>
+				 <hr>
+						 
+				 <p><b>9. Japan is located on which Ocean ?</b></p>
+				 <div class="answers">
+				     <input type="radio" name="question9" value="a" id="q9a"> 
+					 <label for="q9a">a. Pacific Ocean</label><br>							 
+					 <input type="radio" name="question9" value="b" id="q9b"> 
+					 <label for="q9b">b. Indian Ocean</label><br>						 
+					 <input type="radio" name="question9" value="c" id="q9c"> 
+					 <label for="q9c">c. Arctic Ocean</label><br>							 
+					 <input type="radio" name="question9" value="d" id="q9d"> 
+					 <label for="q9d">d. Atlantic Ocean</label><br>
+				 </div>	 
+				 <div class="result">
+					 <p id="resultQ9"></p>
+					 <p id="resultQ9c" style="color:#610B5E; background-color:#F79F81; text-align:center;"></p>
+				 </div>
+				 <hr>
+						 
+				 <p><b>10. What is the name of Singapore's international airport? ?</b></p>
+				 <div class="answers">
+				     <input type="radio" name="question10" value="a" id="q10a"> 
+					 <label for="q10a">a. Changi International Airport</label><br>							 
+					 <input type="radio" name="question10" value="b" id="q10b"> 
+					 <label for="q10b">b. London International Airport</label><br>						 
+					 <input type="radio" name="question10" value="c" id="q10c"> 
+					 <label for="q10c">c. Atlantic City International Airport</label><br>							 
+					 <input type="radio" name="question10" value="d" id="q10d"> 
+					 <label for="q10d">d. Hong Kong International Airport </label><br>
+				 </div>   
+				 <div class="result">
+				     <p id="resultQ10"></p>
+				     <p id="resultQ10c" style="color:#610B5E; background-color:#F79F81; text-align:center;"></p>
+				 </div>
+				 <hr>					 
+				 
+				 <div id="sub_button">
+				     <input id="quiz-button" type="button" value="Submit Test" onclick="getRadioValue();">
+				 </div> 
+
+				 <div id="result_detail">
+				     <p id="result_top"></p>
+				     <p id="result_score" ></p>
+					 <p id="result_time"></p>
+					 <p id="result_correct"></p>
+			     </div>
+				 
+				 <div id="button2"><a href="#top"><b>BACK TO TOP</b></a></div>				 
+			 </form>
+			 <form>			     
+				 <div id="button3"><a href="https://w1809748.users.ecs.westminster.ac.uk/Quiz%20Intro.html"><b>Back To Quiz Intro page</b></a></div>				 
+			 </form>
+			 
+<!------------------------------------------------------------------------------------------------------------------------------------------>			 
+			 
+			 <!--footer reused ......--> 
+			 <div class="footer">
+	             <div class="footer-content">
+		             <div class="footer-section about">
+				         <h2>About Us </h2><!--br-->
+				         <p>TROUVAILLE TRAVELLERS has been the pioneers of tourism since 1990 <br>
+				             We have been providing our customers a finest service and<br>
+				             help  them find the best holdiday solution for them. </p>				
+		             </div>
+				
+		             <div class="footer-section phone">
+				         <h2>Reach Us</h2>
+				         <!--br-->
+				         <address>
+					         <p > trouvailletravelllers90@gmail.com</p>
+					         <p >Tel:011-2247896<br>  077-8866255</p>
+				         </address>				
+				         <img src="3.png" width="140" height="55" alt="icon">		
+`		             </div>
+		
+		             <div class="footer-section quicklinks">
+			             <h2>Quick links  </h2>
+			             <!--br-->
+			             <ul>
+				             <li><a href="https://w1809936.users.ecs.westminster.ac.uk/navbar.html">Home</a></li>                       <!--home page :going up-->
+				             <li><a href="https://w1809852.users.ecs.westminster.ac.uk/public_html/public_html/shop.html">Shop</a></li> <!--shop page-->  
+				             <li><a href="https://w1809748.users.ecs.westminster.ac.uk/Student_Details.html">Team</a></li>              <!--about us page-->
+				             <li><a href="https://w1809936.users.ecs.westminster.ac.uk/query.html">Contact us</a></li>	                <!--query-->
+				             <li><a href="https://w1809748.users.ecs.westminster.ac.uk/Quiz%20Intro.html">Quiz</a></li>	                <!--quiz page-->
+                             <li><a href="https://w1809851.users.ecs.westminster.ac.uk/WebDesign_Thumbnail_page.html">Thumbnail</a></li> <!--Thumbnail page-->
+				             <li><a href="https://w1809851.users.ecs.westminster.ac.uk/WebDesign_Sitemap_page.html">Sitemap</a></li>	 <!--sitemap svg page-->
+			             </ul>
+		             </div>
+	             </div>
+		
+	             <div class="footer-bottom">
+	                 &copy;trouvailletravelllers.com | Designed by CLAUDIA W. |
+					 <a href="https://w1809748.users.ecs.westminster.ac.uk/page_editor3.html" style="font-size: 13px;">Page Developed By : Rashmi Guruge | Student 3</a>
+	             </div>
+             </div>
+<!------------------------------------------------------------------------------------------------------------------------------------------>				 
+		 </div> 	 
+	 </body>	 
+</html>		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
