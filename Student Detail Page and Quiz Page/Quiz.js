@@ -1,3 +1,4 @@
+//quiz page
 //timer
 var timer;
 var seconds = 60;
